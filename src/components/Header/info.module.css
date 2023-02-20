@@ -1,0 +1,21 @@
+.name{
+    width: min-content;
+    word-wrap: break-word;
+    font-size: 47px;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    line-height: 59px;
+}
+
+.info{
+    padding: 33px 0;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lang{
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+}
