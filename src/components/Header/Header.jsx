@@ -5,11 +5,13 @@ import classes from "./header.module.css";
 
 const Header = () => {
   return (
-    <div className={classes.header}>
+    <div className={classes.header} id="Home">
       <Navbar />
-      <hr />
-      <Info />
-      <img src="/img/BSPP2266.png" alt="Denis Novik" />
+      <div className={classes.info}>
+        <hr />
+        <Info />
+        <img src="/img/BSPP2266.png" alt="Denis Novik" />
+      </div>
     </div>
   );
 };

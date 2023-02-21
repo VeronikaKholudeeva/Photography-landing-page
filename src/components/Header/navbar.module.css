@@ -1,21 +1,24 @@
 .navbar{
-    display: inline-flex;
-    padding:33px 0;
-    width: 100%;
-    justify-content: space-between;
+    padding:33px 0px;
+    width: 100vw;
+    height: 30px;
+    background-color: white;
+    position: fixed;
+    left:0;
+    text-align: center;
     
+}
+.navbarItems{
+    display: inline-flex;
+    width: 70%;
+    justify-content: space-between;
+
 }
 
-.navbar a:active, a:hover, a{
-    text-decoration: none;
-    color: rgba(130, 130, 130, 1);
-    font-size: 18px;
-    
-    
-}
  hr{
     color: rgba(130, 130, 130, 1);
     border: none;
     height: 1px;
     background-color: rgba(130, 130, 130, 1);
  }
+

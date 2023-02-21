@@ -5,7 +5,7 @@ import SocialNetworks from "./SocialNetworks";
 
 const Contacts = () => {
   return (
-    <div className={classes.contacts}>
+    <div className={classes.contacts} id="Contacts">
       <h1>Contacts</h1>
       <p>
         Want to know more or just chat?

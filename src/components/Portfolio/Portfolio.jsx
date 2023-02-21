@@ -4,7 +4,7 @@ import Work from "./Work";
 
 const Portfolio = () => {
   return (
-    <div className={classes.portfolio}>
+    <div className={classes.portfolio} id="Portfolio">
       <h1>Portfolio</h1>
       <div className={classes.works}>
         <Work img="/img/work1.svg" name="Online fashion store - Homepage" />

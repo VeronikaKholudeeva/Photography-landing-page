@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+    color: rgba(130, 130, 130, 1);
+    font-size: 18px;
+    cursor: pointer;
+    
+    
+}
+
+a.active{
+    color: black;
+    font-weight: bold;
+}

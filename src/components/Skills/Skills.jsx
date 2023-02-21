@@ -5,7 +5,7 @@ import classes from "./skills.module.css";
 
 const Skills = () => {
   return (
-    <div className={classes.skills}>
+    <div className={classes.skills} id="Skills">
       <h1> Skills</h1>
       <p>I work in such programs as</p>
       <div className={classes.programs}>
