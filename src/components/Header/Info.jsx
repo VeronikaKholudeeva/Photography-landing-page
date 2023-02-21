@@ -8,7 +8,9 @@ const Info = () => {
       <div className={classes.personal_info}>
         UX | UI designer <br /> 24 years old, Minsk
       </div>
-      <div className={classes.lang}>RU | ENG</div>
+      <div className={classes.lang}>
+        <a>RU</a> | <a>ENG</a>
+      </div>
     </div>
   );
 };

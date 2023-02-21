@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import Info from "./Info";
+import Info from "../Info";
 import classes from "./navbar.module.css";
 import NavItem from "./NavItem";
 

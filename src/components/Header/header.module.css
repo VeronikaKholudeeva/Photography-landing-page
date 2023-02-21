@@ -7,3 +7,36 @@
 .info{
     margin-top: 96px;
 }
+.menu{
+    display: none;
+    
+}
+
+@media (max-width:768px) {
+    .menu{
+        display: block;
+        height: 30px;
+        padding-top: 30px;
+    }
+    .navbar{
+        display:none;
+    }
+    hr{
+        display: none;
+    }
+    .info{
+        margin-top: 0;
+    }
+    .close{
+        background: transparent;
+        border: 0;
+        position: fixed;
+        z-index: 1;
+        right:10px;
+        font-size: 30px;
+        color: #828282;
+    }
+    .openMenu{
+        display: inline-flex;
+    }
+}

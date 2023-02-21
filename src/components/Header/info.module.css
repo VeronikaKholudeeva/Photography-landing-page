@@ -19,3 +19,6 @@
     writing-mode: vertical-rl;
     transform: scale(-1);
 }
+.lang a:active{
+    color: black;
+}
