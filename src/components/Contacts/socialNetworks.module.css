@@ -1,0 +1,18 @@
+.socialNetworks{
+    width: 100%;
+}
+
+.socialNetworksIcons{
+    padding: 80px 0 40px 0;
+    display: inline-flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+
+.hint{
+    font-size: 11px;
+    color:rgba(130, 130, 130, 1);
+    padding-bottom: 50px;
+    
+}
