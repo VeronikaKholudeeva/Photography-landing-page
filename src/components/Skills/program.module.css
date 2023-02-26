@@ -4,6 +4,19 @@
     
 }
 .program{
-    width:100px;
+    width:120px;
     word-wrap: break-word;
+}
+
+.star{
+    padding:0 3px;
+}
+
+@media (max-width:768px) {
+
+    .program{
+        padding-bottom: 50px;
+    }
+
+
 }

@@ -12,11 +12,27 @@
     
 }
 
+
+
 @media (max-width:768px) {
     .menu{
         display: block;
-        height: 30px;
-        padding-top: 30px;
+        font-size: 30px;
+        padding-top: 33px;
+        grid-column: 2/3;
+        grid-row: 1/1;
+        text-align: right;
+    }
+    .menuList{
+        z-index:1;
+        width: 100%;
+        position: fixed;
+        left:0;
+        
+    }
+    .headerItem{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
     .navbar{
         display:none;
@@ -26,17 +42,26 @@
     }
     .info{
         margin-top: 0;
+        grid-column: 1/2;
+        grid-row: 1/1;
+    }
+    .header img{
+        grid-column: 1/3;
     }
     .close{
         background: transparent;
         border: 0;
         position: fixed;
-        z-index: 1;
+        z-index: 2;
         right:10px;
         font-size: 30px;
         color: #828282;
     }
     .openMenu{
         display: inline-flex;
+        
+    }
+    .lang{
+        display: none;
     }
 }

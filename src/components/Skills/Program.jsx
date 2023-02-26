@@ -9,7 +9,6 @@ const Program = (props) => {
   for (let i = 0; i < props.stars; i++) {
     stars[i] = 1;
   }
-  console.log(stars);
   return (
     <div className={classes.program}>
       <img src={props.img} alt={props.name} />
@@ -17,9 +16,11 @@ const Program = (props) => {
       <div>
         {stars.map((el) => {
           if (el) {
-            return <FontAwesomeIcon icon={faStar} />;
+            return <FontAwesomeIcon className={classes.star} icon={faStar} />;
           } else {
-            return <FontAwesomeIcon icon={emptyStar} />;
+            return (
+              <FontAwesomeIcon className={classes.star} icon={emptyStar} />
+            );
           }
         })}
       </div>

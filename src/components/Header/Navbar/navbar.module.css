@@ -1,12 +1,13 @@
 .navbar{
     padding:33px 0px;
-    width: 100vw;
+    width: 100%;
     height: 30px;
     background-color: white;
     position: fixed;
     left:0;
     text-align: center;
-    
+    top: 0;
+    z-index: 1;
 }
 .navbarItems{
     display: inline-flex;

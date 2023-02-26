@@ -8,31 +8,46 @@ import Menu from "./Menu";
 
 const Header = () => {
   let [isOpen, setIsOpen] = useState(false);
+  let [isMobile, setIsMobile] = useState(false);
 
-  const toggleMenu = useEffect(() => {}, [isOpen]);
+  window.addEventListener("resize", () =>
+    window.innerWidth <= 768 ? setIsMobile(true) : setIsMobile(false)
+  );
 
   return (
     <div className={classes.header} id="Home">
-      {isOpen ? (
-        <div className={classes.openMenu}>
-          <button className={classes.close} onClick={() => setIsOpen(false)}>
-            <FontAwesomeIcon icon={faClose} />
-          </button>
-          <Menu />
-        </div>
-      ) : (
-        <div className={classes.menu} onClick={() => setIsOpen(true)}>
-          <FontAwesomeIcon icon={faBars} />
-        </div>
-      )}
+      <div className={classes.headerItem}>
+        {isOpen ? (
+          <div className={classes.openMenu}>
+            <button className={classes.close} onClick={() => setIsOpen(false)}>
+              <FontAwesomeIcon icon={faClose} />
+            </button>
+            <div className={classes.menuList}>
+              <Menu />
+            </div>
+          </div>
+        ) : (
+          <div
+            className={classes.menu}
+            id="menu"
+            onClick={() => setIsOpen(true)}
+          >
+            <FontAwesomeIcon icon={faBars} />
+          </div>
+        )}
 
-      <div className={classes.navbar}>
-        <Navbar />
-      </div>
-      <div className={classes.info}>
-        <hr />
-        <Info />
-        <img src="/img/BSPP2266.png" alt="Denis Novik" />
+        <div className={classes.navbar}>
+          <Navbar />
+        </div>
+        <div className={classes.info}>
+          <hr />
+          <Info />
+        </div>
+        {isMobile ? (
+          <img src="/img/BSPP22662.png" />
+        ) : (
+          <img src="/img/BSPP2266.png" />
+        )}
       </div>
     </div>
   );

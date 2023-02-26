@@ -22,3 +22,16 @@
 .lang a:active{
     color: black;
 }
+
+@media (max-width:768px) {
+    .lang{
+        display: none;
+    }
+    .info{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .name{
+        padding-bottom: 30px;
+    }
+}

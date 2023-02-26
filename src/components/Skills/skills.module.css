@@ -16,3 +16,17 @@
 .skills p{
     margin: 40px 0;
 }
+
+@media (max-width:768px) {
+
+    .programs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills p{
+        margin: 10px 0
+    }
+
+}
