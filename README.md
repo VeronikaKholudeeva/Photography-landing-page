@@ -1,3 +1,23 @@
+<h1 align="center">Photography Landing Page</h1>
+<p align="center"> This project is a simple adaptive landing page made from a Figma layout. </p>
+<div align="center">
+  
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+  
+</div>
+
+<div align="center">
+  <img src="./landing.png" width="80%"/>
+  
+</div>
+<hr>
+<br>
+<div align="center">
+  <h3>Mobile version</h3>
+  <img src="./landing_mobile.png" width="60%"/>
+ </div>
+ 
+ <br> 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
